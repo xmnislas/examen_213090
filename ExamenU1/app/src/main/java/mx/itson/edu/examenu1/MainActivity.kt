@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnGF.setOnClickListener(){
-            c = etC.text.toString().toDobule()
+            c = etC.text.toString().toDouble()
             f = c*1.8+32
             etF.setText(f.toString())
         }
